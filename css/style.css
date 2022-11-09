@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color:antiquewhite;
+}
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+.tree {
+	width: 100%;
+	height: 653px;
+	text-align: center;
+}
+.tree ul {
+	padding-top: 20px;
+	
+	transition: .5s;
+}
+.tree li {
+	display: inline-table;
+	text-align: center;
+	list-style-type: none;
+	
+	padding: 1px;
+	transition: .5s;
+}
+
+
+
+
+
+
+
+
+.tree li a {
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: inline-grid;
+	border-radius: 5px;
+	text-decoration-line: none;
+	border-radius: 5px;
+	transition: .5s;
+}
+.tree li a img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px !important;
+	border-radius: 100px;
+	margin: auto;
+}
+.tree li a span {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #666;
+	padding: 8px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+/*Hover-Section*/
+.tree li a:hover, .tree li a:hover i, .tree li a:hover span, .tree li a:hover+ul li a {
+	background: #c8e4f8;
+	color: #000;
+	border: 1px solid #94a0b4;
+}
+.tree li a:hover+ul li::after, .tree li a:hover+ul li::before, .tree li a:hover+ul::before, .tree li a:hover+ul ul::before {
+	border-color: #94a0b4;
+}
+
+.c1{
+	position: absolute;
+}
+.c2{
+	position: absolute;
+	left: 600px;
+	top: 50px;
+}
+.c3{
+	position: absolute;
+	left: -400px;
+	
+}
+.c4{
+	position: absolute;
+	left: 900px;
+}
+.c5{
+	position: absolute;
+	left: 100px;
+	
+}
+.c6{
+	position: absolute;
+	left: -150px;
+	
+}
+.c7{
+	position: absolute;
+	left: 10px;
+}.c8{
+	position: absolute;
+	left: 400px;
+}
+.c9{
+	position: absolute;
+	left: -500px;
+}
+.c10{
+	position: absolute;
+	left: 600px;
+}
+.c11{
+	position: absolute;
+	left: 500px;
+}
+.c12{
+	position: absolute;
+	left: 400px;
+}
+.c13{
+	position: absolute;
+	
+}
+
